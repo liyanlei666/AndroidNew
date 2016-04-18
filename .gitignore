@@ -3,9 +3,10 @@
 /local.properties
 /.idea/workspace.xml
 /AndroidNew.iml
-/.idea/libraries
+/.idea
 /library/library.iml
 .DS_Store
 /build
 /app/app.iml
 /captures
+.idea
