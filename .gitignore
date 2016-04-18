@@ -4,6 +4,7 @@
 /.idea/workspace.xml
 /AndroidNew.iml
 /.idea/libraries
+/library/library.iml
 .DS_Store
 /build
 /app/app.iml
