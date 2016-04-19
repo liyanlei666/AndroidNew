@@ -29,3 +29,9 @@
     public static **[] values();
     public static ** valueOf(java.lang.String);
 }
+
+# retrofit
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }
+-keepattributes Signature
+-keepattributes Exceptions

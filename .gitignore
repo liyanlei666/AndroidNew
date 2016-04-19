@@ -9,5 +9,8 @@
 /build
 /app/app.iml
 /captures
+/libraries/library/library.iml
+/libraries/library/build
+/app/build
 .idea
 .idea/misc.xml

@@ -1,5 +1,6 @@
 package com.liyanlei.library.utils;
 
+import com.orhanobut.logger.LogLevel;
 import com.orhanobut.logger.Logger;
 
 /**
@@ -8,7 +9,7 @@ import com.orhanobut.logger.Logger;
 public class LogUtil {
 
     public static void init() {
-        Logger.init();
+        Logger.init("LogUtil").logLevel(LogLevel.FULL);
     }
 
     public static void d(String tag, Object... obj) {
