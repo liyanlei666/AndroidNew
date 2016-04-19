@@ -1,9 +1,11 @@
-package com.liyanlei;
+package com.liyanlei.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.liyanlei.R;
+import com.liyanlei.library.base.BaseActivity;
+
+public class MainActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

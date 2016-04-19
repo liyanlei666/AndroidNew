@@ -1,4 +1,4 @@
-package com.liyanlei.library;
+package com.liyanlei.library.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
