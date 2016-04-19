@@ -10,17 +10,11 @@ android {
         versionCode 1
         versionName "1.0"
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
+    compile 'com.github.orhanobut:logger:1.12'
     compile 'com.android.support:appcompat-v7:23.+'
     compile 'com.android.support:percent:23.+'
 }
